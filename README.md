@@ -1,18 +1,46 @@
-# React + Vite
+<h1 align="center">🌦️ Weather Tracker App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>Check real-time weather data for any city around the world!</b><br/>
+  Built with <b>React</b>, <b>Redux Toolkit</b>, <b>Axios</b>, and <b>TailwindCSS</b> using the <b>OpenWeatherMap API</b>.
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+👉 [View Live App](https://weather-tracker-1tydw3um2-piyush-singh-tanwar-s-projects.vercel.app/)
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🧠 Project Overview
 
-Note: This will impact Vite dev & build performances.
+Weather Tracker is a sleek and responsive web app that allows users to search and view live weather data for any city.  
+It uses the **OpenWeatherMap API** to fetch accurate temperature, humidity, and wind data — all managed globally using **Redux Toolkit**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Features
+
+- 🌍 Search weather by city name  
+- ☁️ Real-time temperature, humidity & wind speed  
+- ⚡ Redux Toolkit for state management  
+- 🎨 TailwindCSS for modern UI design  
+- 🚨 Error handling for invalid cities  
+- 📡 Live API integration with OpenWeatherMap  
+- 💾 Environment variables for API security  
+
+---
+
+## 🏗️ Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| **React.js** | UI Framework |
+| **Redux Toolkit** | State Management |
+| **Axios** | API Requests |
+| **TailwindCSS** | Styling |
+| **Vite** | Development Environment |
+| **OpenWeatherMap API** | Weather Data Source |
+
+---
+
